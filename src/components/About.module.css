@@ -1,0 +1,19 @@
+.about {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 40px;
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    border: 3px solid #202945;
+    border-radius: 16px;
+    background-color: #152028;
+    color: white;
+    text-align: justify;
+    font-size: 20pt;
+}

@@ -1,0 +1,44 @@
+.nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 75px;
+  background-color: #152028;
+}
+
+.icon {
+  margin-top: 5px;
+  margin-left: 20px;
+  height: 44px;
+  width: 44px;
+  border-radius: 40px;
+  filter: invert(1);
+}
+
+.weather {
+  margin-left: 30px;
+  color: #202945;
+  filter: brightness(210%);
+  font-size: 16pt;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.weather:hover {
+  color: greenyellow;
+  filter: brightness(100%);
+}
+
+.about {
+  margin-top: 5px;
+  margin-left: 30px;
+  color: #202945;
+  filter: brightness(210%);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.about:hover {
+  color: greenyellow;
+  filter: brightness(100%);
+}

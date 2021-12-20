@@ -1,0 +1,64 @@
+.card {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 500px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #202945;
+    border-radius: 16px;
+    background-color: #152028;
+    
+}
+
+.button {
+  align-self: flex-end;
+  margin: 20px 20px 0px;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid orangered;
+  border-radius: 20px;
+  background-color: orangered;
+  color: #152028;
+  font-size: 14pt;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.button:hover {
+  border: 2px solid orangered;
+  background-color: #152028;
+  color: orangered;
+  font-weight: 400;
+}
+
+.name {
+  margin: 20px 20px;
+  color: #202945;
+  filter: brightness(160%);
+  font-size: 24pt;
+}
+
+.weatherImage {
+  margin: 10px 60px;
+  width: 150px;
+  height: 150px;
+}
+
+.details {
+  margin-left: 20px;
+  color: white;
+  text-align: left;
+  font-size: 18pt;
+}
+
+.card ul li {
+  margin-top: 20px;
+}

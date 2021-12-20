@@ -1,0 +1,11 @@
+.citiesStyle {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cityStyle {
+  margin: 30px;
+  list-style-type: none;
+}

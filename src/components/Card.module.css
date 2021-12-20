@@ -1,0 +1,74 @@
+.card {
+  height: 200px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #202945;
+  border-radius: 10px;
+  background-color: #152028;
+  color: white;
+}
+
+.card:hover {
+  border: 1px solid greenyellow;
+}
+
+.button {
+  align-self: flex-end;
+  margin: 15px 15px 0px 0px;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 5px solid orangered;
+  border-radius: 20px;
+  background-color: orangered;
+  color: #152028;
+  font-size: 10pt;
+  font-weight: 900;
+}
+
+.button:hover {
+  border: 2px solid orangered;
+  background-color: #152028;
+  color: orangered;
+  font-weight: 300;
+}
+
+.name {
+  align-self: center;
+  margin-bottom: 15px;
+  width: fit-content;
+  color: #202945;
+  filter: brightness(180%);
+  font-size: 20pt;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.name:hover {
+  color: greenyellow;
+  filter: brightness(100%);
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container .temperature {
+  list-style-type: none;
+  margin: 5px;
+}
+
+.container .temperature li {
+  margin-bottom: 15px;
+}
+
+.container .img {
+  position: relative;
+  bottom: 10px;
+}
