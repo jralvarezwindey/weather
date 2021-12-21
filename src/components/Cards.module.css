@@ -1,7 +1,7 @@
 .citiesStyle {
   margin: 30px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 
