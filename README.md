@@ -2,7 +2,7 @@
 
 ## About the project
 
-An application that allows you to search weather information from different places around the world.
+Application that allows the user to search weather information from different places around the world.
 The data is fetched from an external API.
 
 #### Cities cards
